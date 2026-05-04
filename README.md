@@ -93,13 +93,12 @@ eres quien sabe. ¡Buena suerte!
 
 <h3>1).Dominio copmartimental</h3>
 <h4>Sistema de caja negra</h4>
+A continuacion se presenta el sistema en modelo de caja negra, con sus entradas y salidas correspondientes
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Sistema_Caja_negra.png" width=50% height=50%>
 
 <h4>Tabla de verdad</h4>
 A continuacion se presenta la tabla de verdad
 <img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Tabla_verdad.png" width=50% height=50%>
-
-<h4>Diagrama de flujo</h4>
-
 
 <h3>2).Dominio fisico</h3>
 <h4>Circuito electrico del sistema de control</h4>
@@ -116,7 +115,7 @@ Se muestra a continuacion el diagrama logico del circuito con compuertas logicas
 A continuacion se expone el codigo obtenido por el programa de Digital en Verilog
 
 ```VERILOG
-   module Lab_2_Circuito_logico (
+   module Modulo_logico (
      input E1,
      input E2,
      input E3,
@@ -147,9 +146,33 @@ A continuacion se expone el codigo obtenido por el programa de Digital en Verilo
 ```
 
 <h4>Puertos y nombre de modulo</h4>
-<h4>Operadores logicos</h4>
+Se logra observar el modulo logico del programa, llamado "Modulo logico" y las 5 entradas y 7 salidas
 
+<h4>Operadores logicos</h4>
+Las operaciones logicas que se observan son el & para multiplicacion (AND) y | para la suma (OR)
 
 <h3>5).Sintesis en FPGA</h3>
 <h4>Codigo para la FPGA</h4>
+Se hace el siguiente codigo para la asignacion de pines a la FPGA
+
+```
+## ASIGNACIÓN DE PINES ##
+#Entradas
+set_location_assignment PIN_58 -to E1  #Sensor red electrica
+set_location_assignment PIN_54 -to E2  #Sensor nivel de carga baterias
+set_location_assignment PIN_52 -to E3  #SEnsor de luz solar
+set_location_assignment PIN_50 -to E4  #Boton de emergencia
+set_location_assignment PIN_46 -to E5  #Sensor energia casa
+
+#Salidas
+set_location_assignment PIN_59 -to S1  #Reele a red o baterias
+set_location_assignment PIN_64 -to S2  #Reele casa 
+set_location_assignment PIN_66 -to S3  #Led energia electrica
+set_location_assignment PIN_68 -to S4  #Led radiacion solar
+set_location_assignment PIN_70 -to S5  #Led energia baterias
+set_location_assignment PIN_72 -to S6  #Led estado reeles
+set_location_assignment PIN_74 -to S7  #Led energia casa
+```
+
 <h4>Video de muestra</h4>
+<video src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Funcionamiento_FPGA.mp4" controls="controls" width="100%"></video>
