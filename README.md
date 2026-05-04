@@ -104,11 +104,12 @@ A continuacion se presenta la tabla de verdad
 <h3>2).Dominio fisico</h3>
 <h4>Circuito electrico del sistema de control</h4>
 A continuacion se plantea el circuito a ejecutar para el montaje logico
-<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/CIrcuito_logico.png" width=50% height=50%>
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Diagrama%20de%20flujo%20SVD.png" width=50% height=50%>
 
 <h3>3).Dominio estructural</h3>
 <h4>Diagrama de compuertas logicas</h4>
-
+Se muestra a continuacion el diagrama logico del circuito con compuertas logicas
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/CIrcuito_logico.png" width=50% height=50%>
 
 <h3>4).Descripcion en lenguaje HDL</h3>
 <h4>Codigo en verilog</h4>
