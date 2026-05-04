@@ -114,35 +114,35 @@ Se muestra a continuacion el diagrama logico del circuito con compuertas logicas
 <h3>4).Descripcion en lenguaje HDL</h3>
 <h4>Codigo en verilog</h4>
 A continuacion se expone el codigo obtenido por el programa de Digital en Verilog
-```PYTHON
-module Lab_2_Circuito_logico (
-  input E1,
-  input E2,
-  input E3,
-  input E4,
-  input E5,
-  output S1,
-  output S2,
-  output S3,
-  output S4,
-  output S5,
-  output S6,
-  output S7
-);
-  wire s0;
-  wire s8;
-  wire s9;
-  assign s0 = ~ E1;
-  assign s8 = ~ E4;
-  assign s9 = ~ E5;
-  assign S1 = ((s0 & E3 & s8) | (s0 & E2));
-  assign S2 = ((s0 & E2 & E3) | (E1 & s8) | (E2 & E3 & s9) | (E2 & s8) | (E3 & s8) | (s8 & s9));
-  assign S6 = (E1 | E2 | E3 | s9);
-  assign S7 = ((E1 & s8) | (E2 & s8 & E5) | (E3 & s8 & E5));
-  assign S3 = E1;
-  assign S4 = E3;
-  assign S5 = E2;
-endmodule
+```
+   module Lab_2_Circuito_logico (
+     input E1,
+     input E2,
+     input E3,
+     input E4,
+     input E5,
+     output S1,
+     output S2,
+     output S3,
+     output S4,
+     output S5,
+     output S6,
+     output S7
+   );
+     wire s0;
+     wire s8;
+     wire s9;
+     assign s0 = ~ E1;
+     assign s8 = ~ E4;
+     assign s9 = ~ E5;
+     assign S1 = ((s0 & E3 & s8) | (s0 & E2));
+     assign S2 = ((s0 & E2 & E3) | (E1 & s8) | (E2 & E3 & s9) | (E2 & s8) | (E3 & s8) | (s8 & s9));
+     assign S6 = (E1 | E2 | E3 | s9);
+     assign S7 = ((E1 & s8) | (E2 & s8 & E5) | (E3 & s8 & E5));
+     assign S3 = E1;
+     assign S4 = E3;
+     assign S5 = E2;
+   endmodule
 ```
 
 <h4>Puertos y nombre de modulo</h4>
