@@ -176,3 +176,7 @@ set_location_assignment PIN_74 -to S7  #Led energia casa
 
 <h4>Video de muestra</h4>
 <video src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Funcionamiento_FPGA.mp4" controls="controls" width="100%"></video>
+
+
+https://github.com/user-attachments/assets/7d1fcb2b-6857-4ec8-a328-e4fa8a9a2529
+<video src="Funcionamiento_FPGA.mp4" controls="controls" width="100%"></video>
