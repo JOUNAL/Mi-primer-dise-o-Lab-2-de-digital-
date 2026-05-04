@@ -114,7 +114,7 @@ Se muestra a continuacion el diagrama logico del circuito con compuertas logicas
 <h3>4).Descripcion en lenguaje HDL</h3>
 <h4>Codigo en verilog</h4>
 A continuacion se expone el codigo obtenido por el programa de Digital en Verilog
-```
+```PYTHON
 module Lab_2_Circuito_logico (
   input E1,
   input E2,
