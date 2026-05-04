@@ -104,7 +104,7 @@ A continuacion se presenta la tabla de verdad
 <h3>2).Dominio fisico</h3>
 <h4>Circuito electrico del sistema de control</h4>
 A continuacion se plantea el circuito a ejecutar para el montaje logico
-<img src="" width=50% height=50%>
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/CIrcuito_logico.png" width=50% height=50%>
 
 <h3>3).Dominio estructural</h3>
 <h4>Diagrama de compuertas logicas</h4>
