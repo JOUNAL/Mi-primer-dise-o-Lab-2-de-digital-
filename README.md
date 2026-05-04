@@ -93,14 +93,18 @@ eres quien sabe. ¡Buena suerte!
 
 <h3>1).Dominio copmartimental</h3>
 <h4>Sistema de caja negra</h4>
+
 <h4>Tabla de verdad</h4>
 A continuacion se presenta la tabla de verdad
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Tabla_verdad.png" width=50% height=50%>
+
 <h4>Diagrama de flujo</h4>
 
 
 <h3>2).Dominio fisico</h3>
 <h4>Circuito electrico del sistema de control</h4>
-
+A continuacion se plantea el circuito a ejecutar para el montaje logico
+<img src="" width=50% height=50%>
 
 <h3>3).Dominio estructural</h3>
 <h4>Diagrama de compuertas logicas</h4>
