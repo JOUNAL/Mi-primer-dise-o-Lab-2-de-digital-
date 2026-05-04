@@ -144,7 +144,9 @@ A continuacion se expone el codigo obtenido por el programa de Digital en Verilo
      assign S5 = E2;
    endmodule
 ```
-
+```
+Aquí va tu código
+```
 <h4>Puertos y nombre de modulo</h4>
 <h4>Operadores logicos</h4>
 
