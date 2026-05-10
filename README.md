@@ -102,7 +102,7 @@ A continuacion se presenta la tabla de verdad
 
 <h4>Diagrama de flujo</h4>
 A continuacion se presenta el diagrama de flujo
-<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Diagrama%20de%20flujo%20Casa.png" width=50% height=50%>
+<img src="https://github.com/JOUNAL/Mi-primer-dise-o-Lab-2-de-digital-/blob/main/Imagenes/Diagrama%20de%20flujo%20Casa.png" width=80% height=80%>
 
 <h3>2).Dominio fisico</h3>
 <h4>Circuito electrico del sistema de control</h4>
